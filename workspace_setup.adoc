@@ -35,7 +35,6 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
 RUN gem install asciidoctor \
                 asciidoctor-diagram \
                 asciidoctor-pdf \
-                asciidoctor-docx \
                 rouge
 
 # Install aichat CLI for unified access to ChatGPT, Claude, and Gemini
