@@ -1,0 +1,255 @@
+= Technical Setup: AI-Powered AsciiDoc Publishing Workspace
+:toc: macro
+:toc-title: Table of Contents
+:icons: font
+:source-highlighter: rouge
+
+This document summarizes the complete configuration for an isolated, containerized technical writing environment using VS Code Dev Containers. It supports compiling AsciiDoc files containing text-based diagrams into PDF and Word (DOCX) files, integrates Gemini, ChatGPT, and Claude via terminal and UI tools, manages builds with automated script pipelines, tracks heavy binary assets using Git LFS, and synchronizes securely with GitHub using your host machine's `.gitconfig`.
+
+toc::[]
+
+== 1. Environment Configuration Files
+
+Create a directory named `.devcontainer` at the root of your project workspace and add the following two files.
+
+=== Dockerfile
+This file handles the native installation of dependencies, rendering environments, document compilers, and storage extensions like Git LFS.
+
+[source,dockerfile]
+----
+FROM ://microsoft.com
+
+# Install System dependencies, Git LFS, Java (for PlantUML), Graphviz, Pandoc, and curl
+RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
+    && apt-get -y install --no-install-recommends \
+       git \
+       git-lfs \
+       ruby-full \
+       default-jre \
+       graphviz \
+       pandoc \
+       curl \
+    && apt-get clean && rm -rf /var/lib/apt/lists/*
+
+# Install Latest Supported Ruby Gems for PDF, DOCX, and Diagrams
+RUN gem install asciidoctor \
+                asciidoctor-diagram \
+                asciidoctor-pdf \
+                asciidoctor-docx \
+                rouge
+
+# Install aichat CLI for unified access to ChatGPT, Claude, and Gemini
+RUN curl -FSsl https://githubusercontent.com | sh -s -- --to /usr/local/bin
+----
+
+=== devcontainer.json
+This file provisions the VS Code workspace, securely passes host API credentials, hooks into your local Git configurations, and installs the required IDE extensions.
+
+[source,json]
+----
+{
+    "name": "AsciiDoc Heavy AI Publishing Workspace",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "containerEnv": {
+        "OPENAI_API_KEY": "${localEnv:OPENAI_API_KEY}",
+        "ANTHROPIC_API_KEY": "${localEnv:ANTHROPIC_API_KEY}",
+        "GEMINI_API_KEY": "${localEnv:GEMINI_API_KEY}"
+    },
+    "mounts": [
+        "source=${localEnv:HOME}/.gitconfig,target=/home/vscode/.gitconfig,type=bind,consistency=cached"
+    ],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "asciidoctor.asciidoctor-vscode",
+                "mhutchie.git-graph",
+                "Continue.continue"
+            ],
+            "settings": {
+                "asciidoc.preview.attributes": {
+                    "data-uri": "",
+                    "asciidoctor-diagram": ""
+                },
+                "asciidoc.use_asciidoctorpdf": true,
+                "git.autofetch": true
+            }
+        }
+    },
+    "remoteUser": "vscode"
+}
+----
+
+== 2. Binary Asset Optimization Management (`.gitattributes`)
+
+Create a `.gitattributes` configuration tracker file in your project root directory to prevent compiled publications and generated diagram images from bloating your standard repository history line.
+
+[source,text]
+----
+# Document Outputs
+*.pdf filter=lfs diff=lfs merge=lfs -text
+*.docx filter=lfs diff=lfs merge=lfs -text
+
+# Compiled/Generated Diagram Image Assets
+*.png filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.jpeg filter=lfs diff=lfs merge=lfs -text
+*.svg filter=lfs diff=lfs merge=lfs -text
+----
+
+== 3. Post-Installation Verification Template
+
+To confirm the container has built all modules properly, copy this syntax test block into a file named `document.adoc` inside your workspace:
+
+[source,asciidoc]
+----
+= Documentation Test
+:imagesdir: images
+
+== PlantUML Diagram Test
+[plantuml, test-diagram, png]
+----
+@startuml
+Alice -> Bob: Hello Bob!
+Bob --> Alice: Hi Alice!
+@enduml
+----
+
+== Graphviz Diagram Test
+[graphviz, dot-example, png]
+----
+digraph g {
+    A -> B;
+    B -> C;
+    C -> A;
+}
+----
+----
+
+== 4. Automation & Single-Command Build Pipeline
+
+To eliminate manual typing, we run multi-format compilation pipelines via a shell wrapper script linked directly to VS Code's global build hotkeys.
+
+=== Compilation Master Script (`build.sh`)
+Save this file into your root directory to auto-compile PDF and Word configurations concurrently while cleaning intermediate build data.
+
+[source,bash]
+----
+#!/usr/bin/env bash
+
+# Exit immediately if a command exits with a non-zero status
+set -e
+
+# Target file name (without extension)
+DOC_NAME="document"
+
+echo "🚀 Starting document compilation pipeline..."
+
+# Step 1: Clean up any old output files
+echo "🧹 Cleaning up previous builds..."
+rm -f "${DOC_NAME}.pdf" "${DOC_NAME}.docx" "${DOC_NAME}.html"
+
+# Step 2: Compile to PDF
+echo "📄 Generating PDF (with diagrams)..."
+asciidoctor-pdf -r asciidoctor-diagram "${DOC_NAME}.adoc"
+echo "✅ PDF successfully created: ${DOC_NAME}.pdf"
+
+# Step 3: Compile to Word (DOCX)
+echo "📝 Generating HTML layout to render diagram images..."
+asciidoctor -r asciidoctor-diagram "${DOC_NAME}.adoc"
+
+echo "📦 Converting layout into native Word file..."
+asciidoctor-docx "${DOC_NAME}.adoc"
+echo "✅ Word document successfully created: ${DOC_NAME}.docx"
+
+# Step 4: Cleanup temporary HTML generation artifacts
+echo "🧼 Cleaning up temporary files..."
+rm -f "${DOC_NAME}.html"
+
+echo "🎉 All formats compiled successfully!"
+----
+
+Make the automation tool runnable inside your terminal instance once:
+[source,bash]
+----
+chmod +x build.sh
+----
+
+=== Integration via VS Code Tasks (`.vscode/tasks.json`)
+Map the shell file to the unified `Ctrl+Shift+B` (or `Cmd+Shift+B`) hotkey by dropping this task specification array into your project configuration:
+
+[source,json]
+----
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build All Documents",
+            "type": "shell",
+            "command": "./build.sh",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared"
+            }
+        }
+    ]
+}
+----
+
+== 5. Interactive AI & LLM Engine Usage
+
+Ensure your host terminal profile (`.bashrc` or `.zshrc`) contains your API keys (`OPENAI_API_KEY`, `ANTHROPIC_API_KEY`, `GEMINI_API_KEY`) prior to initializing the container environment.
+
+=== Via Integrated UI Panels
+1. Open the left-hand sidebar Activity Bar and click on the **Continue** extension icon.
+2. Select your desired engine profile (ChatGPT, Claude, or Gemini) from the dropdown interface.
+3. Highlight any section of your `.adoc` text file and trigger `Ctrl+I` to parse requests inline.
+
+=== Via Terminal Pipelines
+Execute raw or piped text analysis using the preconfigured `aichat` script:
+
+[source,bash]
+----
+# Target ChatGPT (Default)
+aichat "Generate a technical overview table framework for a project"
+
+# Target Claude
+aichat -m claude:claude-3-5-sonnet "Refactor this paragraph structure"
+
+# Target Gemini
+aichat -m gemini:gemini-1.5-pro "Generate an AsciiDoc list layout matching standard procedures"
+
+# Pipe source data
+cat document.adoc | aichat "Proofread this technical copy for active tone" > polished.adoc
+----
+
+== 6. Git, GitHub, & Git LFS Synchronization
+
+Your identity parameters map securely from your host home directory via your global `.gitconfig`. Run these initialization parameters in your container terminal to link your repository and enable Git LFS tracking:
+
+[source,bash]
+----
+# Initialize and establish LFS subsystems
+git init
+git lfs install
+
+# Connect your remote GitHub repository HTTPS link
+git remote add origin https://github.com
+
+# Track configuration configurations and source materials
+git add .gitattributes .devcontainer/ .vscode/ build.sh document.adoc
+
+# Commit and safely execute tracking uploads to GitHub LFS 
+git commit -m "docs: complete publishing devcontainer setup with AI toolsets and LFS"
+git push -u origin main
+----
+
+Open the visual timeline history by selecting the **Git Graph** panel widget located on the lower-left status toolbar.
