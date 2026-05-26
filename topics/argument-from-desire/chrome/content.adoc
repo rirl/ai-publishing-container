@@ -101,7 +101,7 @@ Sartre adopted Heidegger's view that humans are always Dasein ("Being-there")—
 === Phenomenological Bad Faith and the Café Waiter
 Because human consciousness is an empty void (Being-for-itself), facing absolute freedom causes severe anxiety. Humans slip into Bad Faith (mauvaise foi) when they pretend they are static, unfree objects (Being-in-itself) to escape this anxiety.
 Sartre illustrates this using his famous observation of a café waiter:
-The waiter's movements are a bit too precise, mechanical, and exaggerated. He is playing a game; he is trying to completely merge his identity with his employment role. He acts like an automated machine to pretend he is just a waiterwith a fixed blueprint, hiding the terrifying truth that he is a free consciousness who could choose to walk away from his job at any moment.
+The waiter's movements are a bit too precise, mechanical, and exaggerated. He is playing a game; he is trying to completely merge his identity with his employment role. He acts like an automated machine to pretend he is just a waiter with a fixed blueprint, hiding the terrifying truth that he is a free consciousness who could choose to walk away from his job at any moment.
 == The Phenomenological Counter-Attacks: Stein, Scheler, and Levinas
 First-generation phenomenologists used Husserl's method to challenge Sartre's bleak, individualistic conclusions regarding freedom, human relationships, and meaning.
 === Edith Stein: The Gaze of Empathy vs. The Gaze of Warfare
@@ -146,5 +146,25 @@ The existentialists claimed that the experience of profound existential Angst (A
 Anxiety Requires Being: You cannot experience a terrifying abyss unless you are a real, solid entity hanging over it. The very feeling of anxiety does not prove we are rooted in nothing; it proves our finite existence is fragile and sustained from the outside.
 Ontological Security: Alongside anxiety, human consciousness experiences an equally universal phenomenological state: a deep sense of baseline safety and support (Geborgenheit). The presence of this existential peace proves that human consciousness is not an empty wind blowing through a void, but a finite vessel resting securely in the hand of Eternal Being.
 == Key Terms Glossary
-[glossary]Abduction (Argument to the Best Explanation):: A form of logical inference that starts with an observation and seeks to determine the simplest, most likely explanation for it (unlike deduction, which guarantees a conclusion based on premises).Bad Faith (Mauvaise foi):: Sartre's term for self-deception. The act of pretending you are a static object without choices to escape the terror of absolute personal freedom.Being-in-itself (En-soi):: Sartre's term for non-conscious matter (e.g., a rock, an object). It is solid, fixed, complete, and identical with itself.Being-for-itself (Pour-soi):: Sartre's term for human consciousness. It is fluid, incomplete, and fundamentally a void or a "Nothingness" because it possesses the capacity to imagine what is not.Bracketing (Epoche):: Husserl's method of suspending belief in the physical existence of the outside world to focus strictly on analyzing how things appear directly to the mind.Empathy (Einfühlung):: In Edith Stein's philosophy, the unique conscious act by which we directly perceive and experience the lived emotional and psychological reality of another person without becoming them.Intentionality:: The foundational rule of phenomenology stating that consciousness is never an empty container; it is always consciousness of something directed outward toward an object in the world.Joy / Sehnsucht:: As defined by C.S. Lewis, a specific, acute emotional ache or transcendent longing for an unknown country that no earthly or finite experience can satisfy.Spandrel:: A term borrowed from architecture and evolutionary biology denoting a biological byproduct that has no adaptive survival function of its own (used by secular critics to explain away spiritual desires).Teleology:: The philosophical study of evidences of design, purpose, or ultimate goals in nature and human behavior.
+[glossary]
+Abduction (Argument to the Best Explanation):: A form of logical inference that starts with an observation and seeks to determine the simplest, most likely explanation for it (unlike deduction, which guarantees a conclusion based on premises).
+
+Bad Faith (Mauvaise foi):: Sartre's term for self-deception. The act of pretending you are a static object without choices to escape the terror of absolute personal freedom.
+
+Being-in-itself (En-soi):: Sartre's term for non-conscious matter (e.g., a rock, an object). It is solid, fixed, complete, and identical with itself.
+
+Being-for-itself (Pour-soi):: Sartre's term for human consciousness. It is fluid, incomplete, and fundamentally a void or a "Nothingness" because it possesses the capacity to imagine what is not.
+
+Bracketing (Epoche):: Husserl's method of suspending belief in the physical existence of the outside world to focus strictly on analyzing how things appear directly to the mind.
+
+Empathy (Einfühlung):: In Edith Stein's philosophy, the unique conscious act by which we directly perceive and experience the lived emotional and psychological reality of another person without becoming them.
+
+Intentionality:: The foundational rule of phenomenology stating that consciousness is never an empty container; it is always consciousness of something directed outward toward an object in the world.
+
+Joy / Sehnsucht:: As defined by C.S. Lewis, a specific, acute emotional ache or transcendent longing for an unknown country that no earthly or finite experience can satisfy.
+
+Spandrel:: A term borrowed from architecture and evolutionary biology denoting a biological byproduct that has no adaptive survival function of its own (used by secular critics to explain away spiritual desires).
+
+Teleology:: The philosophical study of evidences of design, purpose, or ultimate goals in nature and human behavior.
+
 If you want to keep formatting or organizing your philosophy workspace, let me know if you would like to:

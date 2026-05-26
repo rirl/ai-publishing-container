@@ -25,8 +25,17 @@ RUN gem install \
                 asciidoctor-diagram-plantuml \
                 rouge
 
+# Use vscode's cargo home so binaries are available to the remote user
+ENV HOME=/home/vscode
+ENV CARGO_HOME=/home/vscode/.cargo
+ENV PATH="/home/vscode/.cargo/bin:${PATH}"
+
+RUN mkdir -p /home/vscode/.cargo/bin \
+    && chown -R vscode:vscode /home/vscode/.cargo
+
 # Install aichat CLI for unified access to ChatGPT, Claude, and Gemini
 RUN cargo install aichat
 
-# Add cargo bin directory to PATH
-ENV PATH="/home/vscode/.cargo/bin:${PATH}"
+# Verify aichat installation
+RUN aichat --version
+
