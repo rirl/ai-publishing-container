@@ -25,3 +25,6 @@ RUN gem install \
 
 # Install aichat CLI for unified access to ChatGPT, Claude, and Gemini
 RUN cargo install aichat
+
+# Add cargo bin directory to PATH
+ENV PATH="/home/vscode/.cargo/bin:${PATH}"
