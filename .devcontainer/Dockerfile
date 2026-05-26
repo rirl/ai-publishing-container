@@ -9,6 +9,7 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
        default-jre \
        graphviz \
        pandoc \
+       plantuml \
        curl \
        cargo \
        build-essential \
