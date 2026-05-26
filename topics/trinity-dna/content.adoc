@@ -33,6 +33,9 @@ An artful graphic depicting this relationship features:
 * A **DNA replication fork** detailing the split between the parent strand and emerging daughter strands.
 * An instructional breakdown illustrating how enzymes resolve **trefoil knots** into clean, functional DNA rings.
 
+image::content.png[]
+
+
 == Academic and Foundational References
 
 The primary scientific field connecting the Trinity knot (mathematically classified as a trefoil knot) to DNA synthesis is **DNA Topology**. The key references establishing this relationship include:
