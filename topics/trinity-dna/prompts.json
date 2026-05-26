@@ -1,0 +1,20 @@
+{
+  "system_instructions": "You are an expert AI science communicator specializing in molecular biology, biochemistry, and mathematical knot theory.",
+  "prompts": [
+    {
+      "target_llm": "Gemini",
+      "use_case": "Visualizing Abstract Scientific Concepts",
+      "prompt_text": "Act as a scientific visualization expert. I want to create a conceptual infographic that bridges the gap between historical geometry and molecular biology. Explain the relationship between the Celtic Trinity Knot (mathematically known as a trefoil knot or 3-crossing torus knot) and the topological challenges encountered during DNA replication and synthesis. Focus on the role of topoisomerase enzymes in resolving these knots. Structure your response into distinct sections detailing the replication fork, mathematical knot theory applications, and enzymatic modulation. Follow this with a highly detailed, step-by-step description of an artful, infographic-style diagram illustrating these concepts so that a graphic designer or an AI image generator could easily recreate it."
+    },
+    {
+      "target_llm": "Claude",
+      "use_case": "Deep Academic and Mathematical Analysis",
+      "prompt_text": "Provide an in-depth academic analysis of DNA topology during replication, specifically focusing on the formation and resolution of trefoil knots (modeled by the geometry of the Trinity knot/triquetra). Explain how transcriptional supercoiling and replication machinery introduce these topological constraints. Detail the mechanical difference between Type I and Type II topoisomerases in handling these crossings. To support this information, please provide a comprehensive bibliography of foundational research papers (such as those by Cozzarelli, Sumners, etc.) and institutional literature from SIAM or NIMBioS. Format the entire response in clean, publication-ready AsciiDoc (adoc) syntax, including a left-aligned table of contents, numbered sections, and a formal bibliography block."
+    },
+    {
+      "target_llm": "ChatGPT",
+      "use_case": "Creative Educational Presentation & Structuring",
+      "prompt_text": "Create an engaging educational lesson plan and conceptual breakdown that uses the Celtic Trinity Knot as an analogy for DNA synthesis and topology. The target audience is undergraduate biology students who find mathematical physics intimidating. Explain complex terms like 'DNA writhe', 'linking numbers', and 'torus knots' using simple, universal language and punchy formatting. Include a markdown-formatted section that explicitly outlines a creative layout for an educational poster, mapping out where text, labels (like parent strand, daughter strand, replication fork), and geometric shapes should go to make the concept visually intuitive."
+    }
+  ]
+}
