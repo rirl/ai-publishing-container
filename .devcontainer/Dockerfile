@@ -22,6 +22,7 @@ RUN gem install \
                 asciidoctor \
                 asciidoctor-diagram \
                 asciidoctor-pdf \
+                asciidoctor-diagram-plantuml \
                 rouge
 
 # Install aichat CLI for unified access to ChatGPT, Claude, and Gemini
