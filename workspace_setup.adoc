@@ -38,7 +38,7 @@ RUN gem install asciidoctor \
                 rouge
 
 # Install aichat CLI for unified access to ChatGPT, Claude, and Gemini
-RUN curl -FSsl https://githubusercontent.com | sh -s -- --to /usr/local/bin
+RUN cargo install aichat
 ----
 
 === devcontainer.json

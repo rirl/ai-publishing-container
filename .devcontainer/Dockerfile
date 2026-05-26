@@ -10,14 +10,18 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
        graphviz \
        pandoc \
        curl \
+       cargo \
+       build-essential \
+       pkg-config \
+       libssl-dev \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
 # Install Latest Supported Ruby Gems for PDF, DOCX, and Diagrams
-  RUN gem install \
+RUN gem install \
                 asciidoctor \
                 asciidoctor-diagram \
                 asciidoctor-pdf \
                 rouge
 
 # Install aichat CLI for unified access to ChatGPT, Claude, and Gemini
-RUN curl -FSsl https://githubusercontent.com | sh -s -- --to /usr/local/bin
+RUN cargo install aichat

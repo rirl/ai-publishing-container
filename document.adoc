@@ -1,0 +1,21 @@
+= Documentation Test
+:imagesdir: images
+
+== PlantUML Diagram Test
+[plantuml, test-diagram, png]
+----
+@startuml
+Alice -> Bob: Hello Bob!
+Bob --> Alice: Hi Alice!
+@enduml
+----
+
+== Graphviz Diagram Test
+[graphviz, dot-example, png]
+----
+digraph g {
+    A -> B;
+    B -> C;
+    C -> A;
+}
+----
