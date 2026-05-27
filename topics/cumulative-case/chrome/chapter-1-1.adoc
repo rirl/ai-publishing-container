@@ -1,0 +1,20 @@
+= Chapter 1: Foundational Metaphysics
+:sectnums:
+:stem: latexmath
+
+== The Legal Metaphor: Constructing a Cumulative Case via IBE
+
+Traditional natural theology has long been dominated by a linear, foundationalist methodology that treats the defense of Christian theism as a strict deductive chain. In this classical framework, every link in the logical sequence—from the initial premise of contingency to the final conclusion of a necessary prime mover—must be completely flawless. If a single link snaps under the weight of skeptical text-critical or philosophical objections, the entire apologetic enterprise instantly collapses. 
+
+This linear model introduces a structural "fragile chain" vulnerability. It forces the apologist to defend highly isolated, abstract concepts of an impersonal "First Cause" that feel detached from a vibrant, historic Christian faith. Furthermore, it plays directly into the reductionist hands of materialist physicalism by reducing the living God to an entry point in a cosmological equation.
+
+This monograph systematically rejects the deductive chain in favor of a comprehensive *Cumulative Legal Brief*. Operating via *Inference to the Best Explanation (IBE)*, this framework treats worldviews not as isolated geometric proofs, but as competing grand hypotheses. IBE functions like a sophisticated forensic investigation or a complex courtroom brief. It gathers diverse, independent lines of data—ranging from the cosmic infrastructure of astrophysics and mathematical syntax to the internal realities of human consciousness—and synthesizes them into a single, interlocking worldview architecture. 
+
+[sidebar]
+.Worldview Evaluation Criteria
+An explanatory hypothesis within this cumulative brief is tested against three distinct criteria:
+* *Internal Consistency:* The inner coherence of the system's logical dependencies.
+* *Factual Adequacy:* How accurately and exhaustively the framework accounts for empirical and existential data.
+* *Existential Livability:* Whether the worldview can be authentically practiced in daily human experience without psychological friction or self-defeating logical loops.
+
+By evaluating Christian theism as an integrated whole, this cumulative brief demonstrates that its worldview possesses an overwhelmingly superior explanatory power over materialist physicalism.
