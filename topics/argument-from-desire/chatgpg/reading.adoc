@@ -1,0 +1,485 @@
+= Reading List: Phenomenology, Transcendence, Beauty, and the Reconstructed Lewisian Argument
+:author: Philosophical Analysis
+:doctype: article
+:toc: left
+:toclevels: 4
+:sectnums:
+:sectanchors:
+:icons: font
+
+A Structured Research Curriculum +
+_Husserl · Stein · Sartre · Scheler · Levinas · Marion · Heidegger · Merleau-Ponty_
+
+'''
+
+== Purpose of This Reading List
+
+This curriculum is designed to support rigorous engagement with:
+
+* C.S. Lewis's Argument from Beauty
+* Phenomenological critiques of transcendence
+* The reconstruction of the argument through Husserl and Stein
+* Sartrean existential objections
+* Schelerian value realism
+* Levinasian ethics of alterity
+* Marion’s saturated phenomena
+* Contemporary phenomenology of religion
+
+The readings are organized:
+1. Foundational
+2. Intermediate
+3. Advanced/Theological
+4. Secondary Scholarship
+
+The order matters.
+
+'''
+
+== Part I: Foundational Phenomenology
+
+=== Edmund Husserl
+
+==== Primary Texts
+
+1. *Logical Investigations*
++
+Purpose:
+* Intentionality
+* Meaning constitution
+* Noesis/noema foundations
+
+Focus especially on:
+* Investigation V
+* Investigation VI
+
+2. *Ideas Pertaining to a Pure Phenomenology and to a Phenomenological Philosophy, First Book* (_Ideen I_)
++
+Purpose:
+* Epoché
+* Reduction
+* Horizon structure
+* Transcendental phenomenology
+
+3. *Ideas Pertaining to a Pure Phenomenology and to a Phenomenological Philosophy, Second Book* (_Ideen II_)
++
+Purpose:
+* Leib/Körper distinction
+* Lived body
+* Embodiment
+* Kinesthetic constitution
+
+4. *The Crisis of European Sciences and Transcendental Phenomenology*
++
+Purpose:
+* Lebenswelt
+* Sedimentation
+* Historicity
+* Intersubjectivity
+
+==== Secondary Literature
+
+* Dan Zahavi — _Husserl’s Phenomenology_
+* Robert Sokolowski — _Introduction to Phenomenology_
+* Dermot Moran — _Introduction to Phenomenology_
+
+'''
+
+== Part II: Edith Stein and Participatory Ontology
+
+=== Edith Stein
+
+==== Primary Texts
+
+1. *On the Problem of Empathy* (_Zum Problem der Einfühlung_)
++
+Purpose:
+* Intersubjectivity
+* Empathy
+* Constitution of other minds
+* Shared aesthetic disclosure
+
+2. *Finite and Eternal Being*
++
+Purpose:
+* Participatory ontology
+* Thomistic phenomenology
+* Being and transcendence
+* Relation between finite and eternal being
+
+3. *Knowledge and Faith*
++
+Purpose:
+* Relationship between philosophy and theology
+* Limits of phenomenology
+* Faith as distinct intentional mode
+
+4. *Ways to Know God*
++
+Purpose:
+* Rational knowledge
+* Mystical disclosure
+* Philosophical openness to transcendence
+
+==== Secondary Literature
+
+* Sarah Borden — _Edith Stein_
+* Antonio Calcagno — _The Philosophy of Edith Stein_
+* Alasdair MacIntyre — _Edith Stein: A Philosophical Prologue_
+
+'''
+
+== Part III: Sartre and Existential Critique
+
+=== Jean-Paul Sartre
+
+==== Primary Texts
+
+1. *The Imaginary* (_L’Imaginaire_)
++
+Purpose:
+* Image-consciousness
+* Aesthetic constitution
+* Critique of transcendence through imagination
+
+2. *Sketch for a Theory of the Emotions*
++
+Purpose:
+* Emotion as magical transformation
+* Consciousness and affect
+
+3. *Being and Nothingness*
++
+Purpose:
+* Pour-soi/en-soi distinction
+* Radical freedom
+* Bad faith
+* Desire and lack
+* Critique of teleology
+
+==== Secondary Literature
+
+* Joseph Catalano — _A Commentary on Sartre’s Being and Nothingness_
+* Sebastian Gardner — _Sartre’s Being and Nothingness_
+* Christina Howells — _Sartre_
+
+'''
+
+== Part IV: Max Scheler and Value Realism
+
+=== Max Scheler
+
+==== Primary Texts
+
+1. *Formalism in Ethics and Non-Formal Ethics of Values*
++
+Purpose:
+* Value realism
+* Emotional intuition
+* Hierarchy of values
+* Anti-Kantian ethics
+
+2. *The Nature of Sympathy*
++
+Purpose:
+* Shared affectivity
+* Emotional intentionality
+* Intersubjective feeling
+
+3. *On the Eternal in Man*
++
+Purpose:
+* Religious consciousness
+* Spiritual transcendence
+* Value disclosure
+
+==== Secondary Literature
+
+* Manfred Frings — _The Mind of Max Scheler_
+* John Nota — _Max Scheler: The Man and His Work_
+* Stephen Schneck — _Person and Polis_
+
+'''
+
+== Part V: Emmanuel Levinas and Ethical Transcendence
+
+=== Emmanuel Levinas
+
+==== Primary Texts
+
+1. *Totality and Infinity*
++
+Purpose:
+* The face
+* Ethical transcendence
+* Critique of ontology
+* Infinite responsibility
+
+2. *Otherwise Than Being*
++
+Purpose:
+* Subjectivity as responsibility
+* Ethics before ontology
+* Substitution and exposure
+
+3. *Ethics and Infinity*
++
+Purpose:
+* Accessible overview of Levinasian themes
+
+==== Secondary Literature
+
+* Simon Critchley — _The Ethics of Deconstruction_
+* Robert Bernasconi — _The Cambridge Companion to Levinas_
+* Colin Davis — _Levinas: An Introduction_
+
+'''
+
+== Part VI: Jean-Luc Marion and Saturated Phenomena
+
+=== Jean-Luc Marion
+
+==== Primary Texts
+
+1. *Reduction and Givenness*
++
+Purpose:
+* Givenness preceding constitution
+* Radical phenomenology
+
+2. *Being Given*
++
+Purpose:
+* Saturated phenomena
+* Excess of intuition
+* Phenomenology of givenness
+
+3. *In Excess*
++
+Purpose:
+* Types of saturated phenomena
+* Revelation and excess
+
+4. *God Without Being*
++
+Purpose:
+* Theology beyond metaphysical objectification
+* Idol/icon distinction
+
+5. *The Crossing of the Visible*
++
+Purpose:
+* Art
+* Iconicity
+* Visual transcendence
+
+==== Secondary Literature
+
+* Christina Gschwandtner — _Postmodern Apologetics?_
+* Robyn Horner — _Jean-Luc Marion: A Theo-Logical Introduction_
+* Kevin Hart — _The Trespass of the Sign_
+
+'''
+
+== Part VII: Heidegger and Disclosure
+
+=== Martin Heidegger
+
+==== Primary Texts
+
+1. *Being and Time*
++
+Purpose:
+* Ontological difference
+* Disclosure
+* Being-in-the-world
+* Mood and attunement
+
+2. *The Origin of the Work of Art*
++
+Purpose:
+* Truth and unconcealment
+* Art as disclosure of world
+
+3. *Letter on Humanism*
++
+Purpose:
+* Critique of metaphysical humanism
+* Relation to existentialism
+
+==== Secondary Literature
+
+* Hubert Dreyfus — _Being-in-the-World_
+* Richard Polt — _Heidegger: An Introduction_
+* Charles Guignon — _The Cambridge Companion to Heidegger_
+
+'''
+
+== Part VIII: Merleau-Ponty and Embodied Depth
+
+=== Maurice Merleau-Ponty
+
+==== Primary Texts
+
+1. *Phenomenology of Perception*
++
+Purpose:
+* Embodied perception
+* Chiasm
+* Pre-reflective experience
+
+2. *The Visible and the Invisible*
++
+Purpose:
+* Flesh (_chair_)
+* Reversibility
+* Depth and world disclosure
+
+==== Secondary Literature
+
+* Taylor Carman — _Merleau-Ponty_
+* Ted Toadvine — _Merleau-Ponty’s Philosophy of Nature_
+
+'''
+
+== Part IX: C.S. Lewis and the Argument from Beauty
+
+=== C.S. Lewis
+
+==== Primary Texts
+
+1. *Surprised by Joy*
++
+Purpose:
+* Autobiographical structure of Sehnsucht
+
+2. *The Weight of Glory*
++
+Purpose:
+* Core formulation of the argument from desire/beauty
+
+3. *Mere Christianity*
++
+Purpose:
+* Natural theology and transcendence
+
+4. *Pilgrim’s Regress*
++
+Purpose:
+* Allegorical treatment of longing
+
+==== Secondary Literature
+
+* Peter Kreeft — _C.S. Lewis for the Third Millennium_
+* Alister McGrath — _C.S. Lewis: A Life_
+* Michael Ward — _Planet Narnia_
+
+'''
+
+== Part X: Contemporary Phenomenology of Religion
+
+=== Essential Authors
+
+==== Michel Henry
+
+* *I Am the Truth*
+* *The Essence of Manifestation*
+
+Purpose:
+* Radical phenomenology of life
+* Auto-affection
+
+==== Jean-Yves Lacoste
+
+* *Experience and the Absolute*
+
+Purpose:
+* Liturgy and phenomenology
+* Presence and absence
+
+==== Paul Ricoeur
+
+* *The Symbolism of Evil*
+* *Figuring the Sacred*
+
+Purpose:
+* Symbol
+* Hermeneutics
+* Narrative identity
+
+==== Hans-Georg Gadamer
+
+* *Truth and Method*
+
+Purpose:
+* Hermeneutics
+* Tradition
+* Art and disclosure
+
+'''
+
+== Part XI: Suggested Reading Sequence
+
+=== Phase 1 — Foundations
+
+1. Husserl — _Logical Investigations_
+2. Husserl — _Ideen I_
+3. Sartre — _The Imaginary_
+4. Merleau-Ponty — _Phenomenology of Perception_
+
+=== Phase 2 — Intersubjectivity and Value
+
+5. Stein — _On the Problem of Empathy_
+6. Scheler — _Formalism in Ethics_
+7. Levinas — _Totality and Infinity_
+
+=== Phase 3 — Ontology and Transcendence
+
+8. Heidegger — _Being and Time_
+9. Stein — _Finite and Eternal Being_
+10. Marion — _Being Given_
+
+=== Phase 4 — Theology and Revelation
+
+11. Marion — _God Without Being_
+12. Lacoste — _Experience and the Absolute_
+13. Henry — _I Am the Truth_
+
+=== Phase 5 — Lewis Revisited
+
+14. Lewis — _The Weight of Glory_
+15. Lewis — _Surprised by Joy_
+
+Re-read Lewis only after the phenomenological foundations are fully developed.
+
+'''
+
+== Part XII: Final Orientation
+
+The reconstructed Argument from Beauty sits at the intersection of:
+
+* phenomenology,
+* ontology,
+* ethics,
+* aesthetics,
+* theology,
+* and existential philosophy.
+
+No single thinker resolves all tensions.
+
+The major fault lines remain:
+
+* Husserl vs. Sartre
+* Stein vs. Sartre
+* Levinas vs. ontology
+* Marion vs. metaphysical phenomenology
+* transcendence vs. immanence
+* givenness vs. constitution
+* freedom vs. participation
+
+The reading program above is designed not to eliminate those tensions but to understand them rigorously.
+
+The central question underlying the entire tradition remains:
+
+> Can transcendence genuinely appear within experience without being reduced to subjective projection?
+
+Everything in this curriculum ultimately turns around that question.
