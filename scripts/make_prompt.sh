@@ -78,9 +78,9 @@ else
     fi
 fi
 
-# 7. Target Directory Creation
+# 7. Create Any Missing Directories
 if ! mkdir -p "$target_dir"; then
-    echo "Error: Directory creation failed." >&2
+    echo "Error: Failed to create missing directories for '$target_dir'." >&2
     exit 2
 fi
 
@@ -106,6 +106,8 @@ done
 # 10. File Initialization with Platform-Scaled Variables
 cat << EOF > "$filename"
 = Prompt: $formatted_title
+:topic: $formatted_title
+:prompt: TODO: Describe the user-facing prompt or task here.
 :author: AI Assistant ($ai_name)
 :date: $(date +%Y-%m-%d)
 :description: System prompt and configuration template for $formatted_title.
@@ -131,6 +133,9 @@ You are an expert research assistant specialized in $formatted_title.
 * Objective: Define the core goal.
 * Constraints: List boundaries and limitations here.
 * Style/Tone: Professional, direct, and concise.
+
+== Example Prompt
+Provide a short example prompt or question that this configuration is intended to support.
 
 == Instructions
 1. Step one of the execution process.
@@ -163,10 +168,5 @@ echo "- [$(date '+%Y-%m-%d %H:%M:%S')] Created \`$filename\` ($ai_name) | Topic:
 # 14. Path Confirmation
 echo "$filename"
 
-# 15. Automatic Text Editor Hand-off
-EDITOR="${EDITOR:-nano}"
-if command -v "$EDITOR" >/dev/null 2>&1; then
-    exec "$EDITOR" "$filename"
-else
-    echo "Warning: Defined editor '$EDITOR' not found. File created successfully." >&2
-fi
+# 15. File Creation Confirmation
+echo "✅ Prompt file created successfully at: $filename"
